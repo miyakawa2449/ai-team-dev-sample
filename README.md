@@ -69,12 +69,13 @@ Claude Code / Kiro / Codex を
 .
 ├── README.md
 ├── .kiro/
+│   ├── specs/
+│   │   └── example-calculator/
+│   │       ├── requirements.md
+│   │       ├── design.md
+│   │       └── tasks.md
 │   └── steering/
-│       └── ai-roles.md
-├── docs/
-│   ├── requirements.md
-│   ├── design.md
-│   └── task.md
+│       └── ai-team-roles.md
 ├── src/
 │   └── example_app.py
 ├── tests/

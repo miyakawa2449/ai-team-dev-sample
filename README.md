@@ -163,7 +163,17 @@ git clone https://github.com/yourname/ai-team-dev-sample.git
 cd ai-team-dev-sample
 ```
 
-### 2. 仕様を書く（Human + Kiro）
+### 2. 運用ガイドを確認
+
+実際の開発フローを理解するために、以下のドキュメントを参照してください：
+
+- **[初期セットアップ判断ログ](reports/001_initial_setup.md)**  
+  このプロジェクトの構造と方針を決定した際の判断記録です。なぜこの構成にしたのかが記載されています。
+
+- **[日常的な開発フローガイド](reports/002_daily_workflow_guide.md)**  
+  Kiro、Claude Code、Codexの使い分けと、新機能開発・バグ修正・リファクタリングの具体的な手順を解説しています。実践例や判断チャートも含まれています。
+
+### 3. 仕様を書く（Human + Kiro）
 
 - `docs/requirements.md`
 - `docs/design.md`
@@ -181,7 +191,7 @@ cd ai-team-dev-sample
 
 ---
 
-### 3. 実装（Claude Code）
+### 4. 実装（Claude Code）
 
 - `CLAUDE.md` を読み込ませる
 - `docs/` 配下の仕様書を参照させる
@@ -192,7 +202,7 @@ Claude Code は **実装担当** であり、
 
 ---
 
-### 4. デバッグ（Codex）
+### 5. デバッグ（Codex）
 
 - テスト失敗時に Codex を呼び出す
 - エラーメッセージ・ログを渡す
@@ -207,7 +217,7 @@ Claude Code は **実装担当** であり、
 
 ---
 
-### 5. 判断と記録（Human）
+### 6. 判断と記録（Human）
 
 - 修正理由を確認する
 - 判断が必要な場合は仕様に立ち戻る

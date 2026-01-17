@@ -161,7 +161,7 @@ Codex は **デバッグ・検証フェーズ**で使用しています。
 ### 1. このリポジトリをコピー
 
 ```bash
-git clone https://github.com/yourname/ai-team-dev-sample.git
+git clone https://github.com/miyakawa2449/ai-team-dev-sample.git
 cd ai-team-dev-sample
 ```
 
